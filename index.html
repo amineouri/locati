@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AileDrive - Location de voitures avec puissance et liberté</title>
+    <meta name="description" content="AileDrive propose des services de location de voitures offrant une expérience palpitante et aventureuse. Réservez dès maintenant pour profiter de la puissance et de la liberté de nos véhicules." />
+    <meta name="keywords" content="AileDrive, location de voitures, dragon, aventure, puissance, voiture de course, voiture de luxe, réservation de voitures" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="icon" href="images/logolocation 1.png" type="image/icon type">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/3a35ec8cc3.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<link rel="logo" href="">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+</head>
+<body onload="setDefaultActiveButton()">
+
+    <section class="home">
+        <header class="header">
+        <div class="logo"><img src="images/LOGOLOCATION.png" alt=""></div>
+        <nav class="navbar">
+            <ul> 
+                <li><a href="#" class="nav-link active" >Accueil</a></li>
+                <li><a href="#offre" class="nav-link">Offres</a></li>
+                <li><a href="#reservation" class="nav-link">Réservation</a></li>
+                <li><a href="#avisclient" class="nav-link">Avis-clients</a></li>
+                <li><a href="#aboutus" class="nav-link">Notre Entreprise</a></li>
+                <li><a href="#contact" class="nav-link"> Contactez-nous</a></li>
+
+            </ul>
+        </nav>
+        <div class=" bx bx-menu" id="hamburger"></div>
+    </header>
+    <div class="homecontent">
+        <div class="hometext">
+            <h1> Conduisez vers la liberté avec AILE-DRIVE</h1>
+            <p>Découvrez une liberté sans limites avec AileDrive. Louez votre voiture idéale et partez à l'aventure en toute confiance. Faites le pas et laissez-nous vous offrir une expérience de conduite inoubliable.</p>
+<a href="#" class="cta">Réservez Votre Voyage!</a>  </div>
+    
+    <div class="homeimage">
+        <img src="images/bg.png" alt="">
+        <div class="inf1"><h2>100% <br> En ligne</h2></div>
+<div class="inf2"> <h2>100% <br> Sécurisé</h2></div>
+    </div>
+    </div>
+
+
+</section>
+<section class="sec2">
+    <div class="priv-container">
+    <div class="priv-box"data-aos="fade-right" >
+        <i class='bx bx-credit-card-alt' ></i>
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero temporibus excepturi harum. Quibusdam, sequi? Similique, eaque? Minus numquam unde exercitationem!</p>
+    </div>
+    <div class="priv-box"data-aos="fade-up" >
+
+        <i class='bx bxs-car-mechanic'></i>
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit impedit quibusdam, at sequi necessitatibus repellendus velit iste aspernatur maiores quod.</p></div>
+    <div class="priv-box" data-aos="fade-left" >
+        <i class='bx bx-headphone'></i>
+        <h3>Lorem, ipsum dolor.</h3>
+       <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ab laudantium doloribus laboriosam rerum corrupti eaque porro officia suscipit nemo?
+       </p>
+    </div>
+</div>
+    <div class="priv-cont">
+        <img src="images/bmw_m4_cs_bmw_blue_122497_3840x2400.jpeg" alt="" data-aos="fade-in" >
+        <div class="priv-cobox">
+     <h3 data-aos="fade-down" >Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+     <p data-aos="fade-up" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, corrupti.</p>
+    </div>
+    </div>
+</section>
+<section class="offre" id="offre">
+    <div class="heading"data-aos="fade-up" >
+        <h1>Nos <span>Offres</span></h1>
+    </div>
+    <div class="offer">
+        <div class="voiturelist" data-aos="fade-right" >
+            <button id="bmw" class="car-button" onclick="changeImageAndButtonColor('bmw.png', this)">BMW</button>
+            <button id="alfaromeo" class="car-button" onclick="changeImageAndButtonColor('seat.png', this)">Alfa-Romeo</button>
+            <button id="audi" class="car-button" onclick="changeImageAndButtonColor('audi.png', this)">Audi</button>
+            <button id="mercedes" class="car-button" onclick="changeImageAndButtonColor('mercedes.png', this)">Mercedes</button>
+            <button id="porsche" class="car-button" onclick="changeImageAndButtonColor('porsche.png', this)">Porsche</button>
+            <button id="lambo" class="car-button" onclick="changeImageAndButtonColor('lambo.png', this)">Lamborghini</button>
+        </div>
+        <div class="carimg" id="hihi" data-aos="fade-up" >
+            <img src="bmw.png" alt="" id="car-image" width="100px">
+        </div>
+        
+    <div class="carinfos" data-aos="fade-left" >
+        <div class="carspec">
+            <h3>Prix</h3>
+            <h4 id="carprix">30€/jour</h4>
+        </div>
+        <div class="carspec">
+            <h3>Marque</h3>
+            <h4 id="carmarque">BMW</h4>
+        </div>
+        <div class="carspec">
+            <h3>Model</h3>
+            <h4 id="carmodel">M3</h4>
+        </div>
+        <div class="carspec">
+            <h3>Année</h3>
+            <h4 id="carmod">2020</h4>
+
+        </div>
+        <div class="carspec">
+            <h3>Energie</h3>
+            <h4 id="carener">Essense</h4>
+
+        </div>
+        <div class="carspec">
+            <h3>Places</h3>
+            <h4 id="carplaces">5 places</h4>
+
+        </div>
+        <div class="carspec">
+            <h3>Puissance DIN</h3>
+            <h4 id="carpuiss">250cv</h4>
+
+        </div>
+    </div>
+</section>
+
+<section class="flees">
+    <div class="flees-container">
+        <div class="flees-images">
+            
+            <img src="images/bmw2.png" alt="" data-aos="fade-right" >
+            <img src="images/bmw3.png" alt=""data-aos="fade-down" >
+            <img src="images/bmw1.png" alt=""data-aos="fade-left" >
+        </div>
+        <div class="flees-text"data-aos="fade-up" >
+            <h1>Pourquoi Aile-Drive?</h1>
+            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eos quos accusantium vel explicabo ut ex eligendi quod officiis natus dignissimos incidunt maiores voluptatem velit quam minima delectus aut id, quae voluptas doloribus eius facere commodi dolore. Facere, illum assumenda?</p>
+            <button type="submit">Plus de détails</button>
+        </div>
+    </div>
+    
+</section>
+    <section class="reservation" id="reservation">
+        
+
+
+        <div class="booking-section">
+            <h2 class="heading" data-aos="fade-up" >Réservez <span>Maintenant!</span></h2>
+            <form id="booking-form">
+                <label for="lieu" data-aos="fade-right" >Votre Nom: </label>
+              <input type="text" id="Lieu" required placeholder="Votre Nom ici" data-aos="fade-right" >
+                <label for="lieu" data-aos="fade-left" >Lieu de prise en charge:</label>
+              <input type="text" data-aos="fade-left"  id="Lieu" required placeholder="Aéroport de Lille-lequin...">
+            
+              <label for="pickup-date"data-aos="fade-right" >Date de prise en charge:</label>
+              <input data-aos="fade-right"  type="date" id="pickup-date" required placeholder="JJ/MM/AAAA">
+              <label for="return-date" data-aos="fade-left" >Date de restitution:</label>
+              <input data-aos="fade-left" type="date" id="return-date" required placeholder="JJ/MM/AAAA">
+              <label data-aos="fade-right" for="car-type">voiture:</label>
+              <select data-aos="fade-right" id="car-type">
+                <option value="bmw">Bmw</option>
+                <option value="audi">Audi</option>
+                <option value="porsche">Porsche</option>
+                <option value="Alfa">Alfa Romeo</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="lambo">Lamborghini</option>
+
+
+              </select>
+              <button data-aos="fade-up" type="submit" id="book-now-btn" class="resrsub">Réserver!</button>
+            </form>
+        </div>
+
+    </section>
+<section class="avisclient" id="avisclient">
+<div class="heading"data-aos="fade-up" ><h1> Avis <span>Client!</span></h1></div>
+<div class="aviswrapper"data-aos="fade-up" >
+    <div class="avisbox mySwiper">
+        <div class="aviscontent swiper-wrapper">
+             <div class="avislide swiper-slide">
+<img src="images/persona-marketing-2-exemples-a-telecharger.png" alt="">
+       <h3>Marie</h3>
+       <p>J'ai loué une voiture chez AileDrive pour mes vacances et j'ai été impressionné par la qualité du service. Je recommande vivement !</p>
+</div>
+<div class="avislide swiper-slide">
+    <img src="images/alevy_avatar_1450133221.jpeg" alt="">
+           <h3>Pierre</h3>
+           <p>Un grand merci à l'équipe d'AileDrive pour leur professionnalisme. La voiture était en excellent état et le processus de réservation était simple et rapide.</p>
+    </div> <div class="avislide swiper-slide">
+        <img src="images/jeune-belle-femme-pull-chaud-rose-aspect-naturel-souriant-portrait-isole-cheveux-longs_285396-896.jpg.webp" alt="">
+               <h3>Sophie</h3>
+               <p>La location d'une voiture avec AileDrive a rendu mon voyage plus agréable et pratique. Je referai appel à leurs services à coup sûr !</p>
+        </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    </div>
+</div>
+
+
+</section>
+
+<section class="faq">
+    <div class="container">
+        <div class="heading"data-aos="fade-up" ><h1>Questions <span>Fréquentes</span> </h1></div>        <details data-aos="fade-right" >
+        <summary>Quel âge faut-il avoir pour louer une voiture ?</summary>
+        <div>
+        <p> L'âge minimum requis pour la location d'une voiture est généralement de 21 ans. Cependant, certaines agences de location peuvent avoir un âge minimum plus élevé ou des exigences supplémentaires pour certaines catégories de voitures. Veuillez consulter nos conditions de location ou contacter notre service client pour plus d'informations.</p>
+        </div>
+        
+      </details>
+      <details data-aos="fade-left" >
+        <summary>Quels documents dois-je présenter pour louer une voiture ?</summary>
+        <div>
+      <p> Pour louer une voiture, vous aurez besoin d'un permis de conduire valide délivré dans votre pays de résidence, d'une carte de crédit principale au nom du conducteur pour la caution et le paiement, ainsi que d'une pièce d'identité telle qu'un passeport ou une carte d'identité.</p>
+        </div>
+        
+      </details>
+      <details data-aos="fade-right" >
+        <summary>Puis-je ajouter un conducteur supplémentaire à ma location ?</summary>
+        <div>
+       <p> Oui, vous pouvez généralement ajouter un conducteur supplémentaire à votre location. Il peut y avoir des frais supplémentaires pour chaque conducteur supplémentaire, et ils devront respecter les mêmes critères d'âge et de permis de conduire que le conducteur principal. Assurez-vous d'inclure les informations du conducteur supplémentaire lors du processus de réservation ou contactez notre service client pour obtenir de l'aide.</p>
+        </div>
+        
+      </details>
+      <details data-aos="fade-left">
+        <summary>Quelles sont les options de carburant pour les voitures de location ?</summary>
+        <div>
+       <p>Nos voitures de location sont généralement fournies avec le réservoir plein. Vous avez deux options pour le niveau de carburant lors du retour : (1) Rendre la voiture avec le réservoir plein, ou (2) La retourner avec le même niveau qu'au moment de la prise en charge et nous la remplirons pour vous au tarif prédéterminé par litre ou gallon.</p>
+        </div>
+        
+      </details>
+      <details data-aos="fade-right" >
+        <summary>Que se passe-t-il si je rends la voiture en retard ?</summary>
+        <div>
+       <p>Rendre la voiture en retard peut entraîner des frais supplémentaires. La plupart des locations fonctionnent sur une base de 24 heures, donc si vous dépassez l'heure de retour de quelques heures, vous pourriez être facturé pour une journée supplémentaire. Nous vous recommandons de contacter notre service client dès que possible si vous prévoyez d'être en retard, afin que nous puissions vous aider et vous proposer la meilleure solution.</p>
+        </div>
+        
+      </details>
+      <details data-aos="fade-left">
+        <summary> Proposez-vous une assurance pour les voitures de location ?</summary>
+        <div>
+       <p>Oui, nous proposons une assurance de base avec nos voitures de location. Cependant, veuillez noter qu'elle peut avoir certaines limites et franchises. Nous vous offrons également la possibilité de souscrire une assurance supplémentaire pour une protection accrue et une tranquillité d'esprit. Consultez nos options d'assurance lors du processus de réservation ou contactez notre service client pour plus de détails.</p>
+        </div>
+        
+      </details>
+      <details data-aos="fade-right" >
+        <summary>Puis-je annuler ou modifier ma réservation ?</summary>
+        <div>
+       <p> Oui, vous pouvez généralement annuler ou modifier votre réservation, en fonction des conditions générales de votre réservation. Les politiques d'annulation et de modification peuvent varier en fonction de la durée de location et de la période à laquelle vous apportez les modifications. Veuillez vous référer à nos conditions générales ou contacter notre service client pour obtenir de l'aide concernant les annulations ou modifications.</p>
+        </div>
+        
+      </details>
+      <details data-aos="fade-left">
+        <summary>: Puis-je louer une voiture pour un trajet aller simple ?</summary>
+        <div>
+       <p>  Oui, nous proposons des locations en aller simple, vous permettant de prendre la voiture à un endroit et de la rendre à un autre. Cependant, des frais supplémentaires peuvent s'appliquer pour les locations en aller simple. Lors du processus de réservation, précisez vos lieux de prise en charge et de retour souhaités pour afficher les options disponibles et les coûts associés.</p>
+        </div>
+        
+      </details>
+      
+      </div>
+
+</section>
+<section class="aboutus" id="aboutus">
+    <div class="heading"data-aos="fade-up"><h1>Chez <span>AileDrive</span> </h1></div>
+    <div class="aboutcontent">
+<img src="images/pngaaa.com-1444699.png" alt="" class="aboutusimg
+" data-aos="fade-up">
+<p data-aos="fade-left">Nous sommes une agence de location de voitures de confiance, dédiée à offrir des services exceptionnels et des expériences inoubliables à nos précieux clients. Avec notre passion pour les voyages et notre engagement envers l'excellence, nous nous efforçons de rendre votre voyage aussi fluide et agréable que possible, en mettant à votre disposition une flotte de véhicules de qualité supérieure. <br> <br> À AileDrive, nous croyons que la liberté commence sur la route. Nous comprenons que chaque voyage est unique, c'est pourquoi nous vous proposons un large choix de voitures bien entretenues pour répondre à vos besoins spécifiques. Que vous ayez besoin d'une petite citadine économique, d'un SUV spacieux pour une escapade en famille ou d'une berline de luxe pour un événement spécial, nous avons le véhicule idéal qui vous permettra de voyager en toute sérénité. <br><br>Notre équipe professionnelle et chaleureuse est là pour vous accompagner tout au long de votre expérience de location. Nous mettons un point d'honneur à offrir un service client de premier ordre, en veillant à ce que chaque détail soit pris en compte pour vous offrir une expérience de conduite sans soucis. Que ce soit pour des conseils personnalisés, une assistance en cas de besoin ou des informations sur les meilleurs itinéraires, nous sommes là pour rendre votre voyage aussi agréable que possible. <br><br> Rejoignez-nous dès maintenant et découvrez pourquoi AileDrive est le partenaire idéal pour toutes vos aventures sur la route, nous vous offrons la tranquillité d'esprit dont vous avez besoin pour profiter pleinement de votre voyage.
+</p>
+</div>
+</section>
+<section class="contact" id="contact">
+    <div class="heading" data-aos="fade-up"> <h1>Contactez <span>Nous!</span></h1></div>
+    
+        <form action="#">
+            <div class="inputbox"data-aos="fade-left">
+                <input type="text" placeholder="Nom (Obligatoire)" required>
+                <input type="email" placeholder="Email (Obligatoire)" required>
+            </div>
+            <div class="inputbox"data-aos="fade-right">
+                <input type="number" placeholder="Numéro de téléphone (Obligatoire)">
+                <input type="text" placeholder="Objet (Obligatoire)" required>
+            </div>
+            <textarea name="text" id="text" cols="30" rows="10" placeholder="Votre message" data-aos="fade-up"></textarea> <br>
+            <input type="submit" value="Envoyer" class="sub" data-aos="fade-up">
+        </form>
+    </section>
+    <footer class="footer-distributed">
+
+        <div class="footer-left" data-aos="fade-right">
+
+            <h3>AILE-DRIVE</h3>
+
+            <p class="footer-links">
+                <a href="#" class="link-1"> Accueil</a>
+                
+                <a href="#">Offres</a>
+            
+                <a href="#">Réservation</a>
+            
+                <a href="#">Avis-client</a>
+                
+                <a href="#">Notre Entreprise</a>
+                
+                <a href="#">Contactez nous</a>
+            </p>
+
+            <p class="footer-company-name">Ourichine Amine © 2023</p>
+        </div>
+
+        <div class="footer-center" data-aos="fade-up">
+
+            <div>
+                <i class='bx bx-current-location'></i>
+                <p>555 rue de marbrerie <br> Lille 59800 France</p>
+            </div>
+
+            <div>
+                <i class='bx bxs-phone-call' ></i>                <p>+33 123 456 789</p>
+            </div>
+
+            <div>
+                <i class='bx bx-envelope' ></i>                <p> ailedrive@rent.com</p>
+            </div>
+
+        </div>
+
+        <div class="footer-right" data-aos="fade-left">
+
+            <p class="footer-company-about">
+                <span>Pourquoi Aile-Drive?</span>
+                Découvrez l'excellence avec Aile Drive : service clientèle hors pair, flotte diversifiée, tarifs compétitifs, praticité, sécurité et une expérience personnalisée inoubliable.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+      <script>
+        let activeButton = null;
+      
+        function setDefaultActiveButton() {
+          const bmwButton = document.getElementById('bmw');
+          changeImageAndButtonColor('bmw.png', bmwButton);
+        }
+      
+        function changeImageAndButtonColor(imageSrc, button) {
+          const carImage = document.getElementById('car-image');
+          const carPrix = document.getElementById('carprix');
+        const carMarque = document.getElementById("carmarque");
+        const carModel = document.getElementById("carmodel")
+          const carMod = document.getElementById('carmod');
+          const carEner = document.getElementById('carener');
+          const carPlaces = document.getElementById('carplaces');
+          const carPuiss = document.getElementById('carpuiss');
+      
+          if (activeButton) {
+            activeButton.classList.remove('active');
+          }
+      
+          button.classList.add('active');
+          carImage.src = imageSrc;
+      
+          
+          if (button.id === 'bmw') {
+            carPrix.textContent = '30€/jour';
+            carMarque.textContent = 'BMW'
+            carModel.textContent = 'M3'
+            carMod.textContent = '2020';
+            carEner.textContent = 'Essence';
+            carPlaces.textContent = '5 places';
+            carPuiss.textContent = '250cv';
+          } else if (button.id === 'alfaromeo') {
+            carPrix.textContent = '35€/jour';
+            carMarque.textContent = 'Alfa-Romeo'
+            carModel.textContent = 'M3'
+            carMod.textContent = '2021';
+            carEner.textContent = 'Essence';
+            carPlaces.textContent = '4 places';
+            carPuiss.textContent = '280cv';
+          } else if (button.id === 'audi') {
+            carPrix.textContent = '40€/jour';
+            carMarque.textContent = 'Audi'
+            carModel.textContent = 'M3'
+            carMod.textContent = '2019';
+            carEner.textContent = 'Diesel';
+            carPlaces.textContent = '5 places';
+            carPuiss.textContent = '220cv';
+          }else if (button.id === 'audi') {
+            carPrix.textContent = '40€/jour';
+            carMarque.textContent = 'Audi'
+            carModel.textContent = 'M3'
+            carMod.textContent = '2019';
+            carEner.textContent = 'Diesel';
+            carPlaces.textContent = '5 places';
+            carPuiss.textContent = '220cv';
+          }else if (button.id === 'audi') {
+            carPrix.textContent = '40€/jour';
+            carMarque.textContent = 'Audi'
+            carModel.textContent = 'M3'
+            carMod.textContent = '2019';
+            carEner.textContent = 'Diesel';
+            carPlaces.textContent = '5 places';
+            carPuiss.textContent = '220cv';
+          }else if (button.id === 'audi') {
+            carPrix.textContent = '40€/jour';
+            carMarque.textContent = 'Audi'
+            carModel.textContent = 'M3'
+            carMod.textContent = '2019';
+            carEner.textContent = 'Diesel';
+            carPlaces.textContent = '5 places';
+            carPuiss.textContent = '220cv';
+          }
+          
+      
+          activeButton = button;
+        }
+      </script>
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+       <script>
+         AOS.init();
+       </script>
+</body>
+</html>
